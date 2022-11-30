@@ -1,0 +1,524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render in loading state 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1
+      class="title"
+    >
+      Hacker News
+    </h1>
+    <div>
+      <span
+        data-testid="skeleton"
+      />
+      <span
+        data-testid="skeleton"
+      />
+      <span
+        data-testid="skeleton"
+      />
+      <span
+        data-testid="skeleton"
+      />
+      <span
+        data-testid="skeleton"
+      />
+      <span
+        data-testid="skeleton"
+      />
+      <span
+        data-testid="skeleton"
+      />
+      <span
+        data-testid="skeleton"
+      />
+      <span
+        data-testid="skeleton"
+      />
+      <span
+        data-testid="skeleton"
+      />
+    </div>
+    <ul
+      aria-label="Pagination"
+      role="navigation"
+    >
+      <li
+        class="previous disabled"
+      >
+        <a
+          aria-disabled="true"
+          aria-label="Previous page"
+          class=" "
+          rel="prev"
+          role="button"
+          tabindex="-1"
+        >
+          &lt;
+        </a>
+      </li>
+      <li
+        class="next"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Next page"
+          class=""
+          rel="next"
+          role="button"
+          tabindex="0"
+        >
+          &gt;
+        </a>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Home should render the list elements 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1
+      class="title"
+    >
+      Hacker News
+    </h1>
+    <div
+      class="feeds"
+    >
+      <a
+        href="http://www.getdropbox.com/u/2/screencast.html"
+        target="_blank"
+      >
+        <div>
+          <span>
+            1
+          </span>
+          <p>
+            My YC app: Dropbox - Throw away your USB drive
+          </p>
+          <span>
+            (www.getdropbox.com)
+          </span>
+        </div>
+        <div>
+          <span>
+            104 points
+          </span>
+          <span>
+            |
+          </span>
+          <span>
+            by dhouston
+          </span>
+          <span>
+            |
+          </span>
+          <span />
+          <span>
+            |
+          </span>
+          <span>
+            71 comments
+          </span>
+        </div>
+      </a>
+      <a
+        href="http://www.getdropbox.com/u/2/screencast.html"
+        target="_blank"
+      >
+        <div>
+          <span>
+            2
+          </span>
+          <p>
+            My YC app: Dropbox - Throw away your USB drive
+          </p>
+          <span>
+            (www.getdropbox.com)
+          </span>
+        </div>
+        <div>
+          <span>
+            104 points
+          </span>
+          <span>
+            |
+          </span>
+          <span>
+            by dhouston
+          </span>
+          <span>
+            |
+          </span>
+          <span />
+          <span>
+            |
+          </span>
+          <span>
+            71 comments
+          </span>
+        </div>
+      </a>
+      <a
+        href="http://www.getdropbox.com/u/2/screencast.html"
+        target="_blank"
+      >
+        <div>
+          <span>
+            3
+          </span>
+          <p>
+            My YC app: Dropbox - Throw away your USB drive
+          </p>
+          <span>
+            (www.getdropbox.com)
+          </span>
+        </div>
+        <div>
+          <span>
+            104 points
+          </span>
+          <span>
+            |
+          </span>
+          <span>
+            by dhouston
+          </span>
+          <span>
+            |
+          </span>
+          <span />
+          <span>
+            |
+          </span>
+          <span>
+            71 comments
+          </span>
+        </div>
+      </a>
+      <a
+        href="http://www.getdropbox.com/u/2/screencast.html"
+        target="_blank"
+      >
+        <div>
+          <span>
+            4
+          </span>
+          <p>
+            My YC app: Dropbox - Throw away your USB drive
+          </p>
+          <span>
+            (www.getdropbox.com)
+          </span>
+        </div>
+        <div>
+          <span>
+            104 points
+          </span>
+          <span>
+            |
+          </span>
+          <span>
+            by dhouston
+          </span>
+          <span>
+            |
+          </span>
+          <span />
+          <span>
+            |
+          </span>
+          <span>
+            71 comments
+          </span>
+        </div>
+      </a>
+      <a
+        href="http://www.getdropbox.com/u/2/screencast.html"
+        target="_blank"
+      >
+        <div>
+          <span>
+            5
+          </span>
+          <p>
+            My YC app: Dropbox - Throw away your USB drive
+          </p>
+          <span>
+            (www.getdropbox.com)
+          </span>
+        </div>
+        <div>
+          <span>
+            104 points
+          </span>
+          <span>
+            |
+          </span>
+          <span>
+            by dhouston
+          </span>
+          <span>
+            |
+          </span>
+          <span />
+          <span>
+            |
+          </span>
+          <span>
+            71 comments
+          </span>
+        </div>
+      </a>
+      <a
+        href="http://www.getdropbox.com/u/2/screencast.html"
+        target="_blank"
+      >
+        <div>
+          <span>
+            6
+          </span>
+          <p>
+            My YC app: Dropbox - Throw away your USB drive
+          </p>
+          <span>
+            (www.getdropbox.com)
+          </span>
+        </div>
+        <div>
+          <span>
+            104 points
+          </span>
+          <span>
+            |
+          </span>
+          <span>
+            by dhouston
+          </span>
+          <span>
+            |
+          </span>
+          <span />
+          <span>
+            |
+          </span>
+          <span>
+            71 comments
+          </span>
+        </div>
+      </a>
+      <a
+        href="http://www.getdropbox.com/u/2/screencast.html"
+        target="_blank"
+      >
+        <div>
+          <span>
+            7
+          </span>
+          <p>
+            My YC app: Dropbox - Throw away your USB drive
+          </p>
+          <span>
+            (www.getdropbox.com)
+          </span>
+        </div>
+        <div>
+          <span>
+            104 points
+          </span>
+          <span>
+            |
+          </span>
+          <span>
+            by dhouston
+          </span>
+          <span>
+            |
+          </span>
+          <span />
+          <span>
+            |
+          </span>
+          <span>
+            71 comments
+          </span>
+        </div>
+      </a>
+      <a
+        href="http://www.getdropbox.com/u/2/screencast.html"
+        target="_blank"
+      >
+        <div>
+          <span>
+            8
+          </span>
+          <p>
+            My YC app: Dropbox - Throw away your USB drive
+          </p>
+          <span>
+            (www.getdropbox.com)
+          </span>
+        </div>
+        <div>
+          <span>
+            104 points
+          </span>
+          <span>
+            |
+          </span>
+          <span>
+            by dhouston
+          </span>
+          <span>
+            |
+          </span>
+          <span />
+          <span>
+            |
+          </span>
+          <span>
+            71 comments
+          </span>
+        </div>
+      </a>
+      <a
+        href="http://www.getdropbox.com/u/2/screencast.html"
+        target="_blank"
+      >
+        <div>
+          <span>
+            9
+          </span>
+          <p>
+            My YC app: Dropbox - Throw away your USB drive
+          </p>
+          <span>
+            (www.getdropbox.com)
+          </span>
+        </div>
+        <div>
+          <span>
+            104 points
+          </span>
+          <span>
+            |
+          </span>
+          <span>
+            by dhouston
+          </span>
+          <span>
+            |
+          </span>
+          <span />
+          <span>
+            |
+          </span>
+          <span>
+            71 comments
+          </span>
+        </div>
+      </a>
+      <a
+        href="http://www.getdropbox.com/u/2/screencast.html"
+        target="_blank"
+      >
+        <div>
+          <span>
+            10
+          </span>
+          <p>
+            My YC app: Dropbox - Throw away your USB drive
+          </p>
+          <span>
+            (www.getdropbox.com)
+          </span>
+        </div>
+        <div>
+          <span>
+            104 points
+          </span>
+          <span>
+            |
+          </span>
+          <span>
+            by dhouston
+          </span>
+          <span>
+            |
+          </span>
+          <span />
+          <span>
+            |
+          </span>
+          <span>
+            71 comments
+          </span>
+        </div>
+      </a>
+    </div>
+    <ul
+      aria-label="Pagination"
+      role="navigation"
+    >
+      <li
+        class="previous disabled"
+      >
+        <a
+          aria-disabled="true"
+          aria-label="Previous page"
+          class=" "
+          rel="prev"
+          role="button"
+          tabindex="-1"
+        >
+          &lt;
+        </a>
+      </li>
+      <li
+        class="selected"
+      >
+        <a
+          aria-current="page"
+          aria-label="Page 1 is your current page"
+          rel="canonical"
+          role="button"
+          tabindex="-1"
+        >
+          1
+        </a>
+      </li>
+      <li>
+        <a
+          aria-label="Page 2"
+          rel="next"
+          role="button"
+          tabindex="0"
+        >
+          2
+        </a>
+      </li>
+      <li
+        class="next"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Next page"
+          class=""
+          rel="next"
+          role="button"
+          tabindex="0"
+        >
+          &gt;
+        </a>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

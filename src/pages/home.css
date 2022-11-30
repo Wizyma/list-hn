@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul[role="navigation"] {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0px;
+}
+
+
+ul[role="navigation"] li:not(.previous, .next) {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #E0E0E0;
+  margin-right: 5px;
+  height: 24px;
+  width: 24px;
+  border-radius: 8px;
+}
+
+ul[role="navigation"] li:is(.previous, .next) {
+  padding: 5px;
+  cursor: pointer;
+}
+
+ul[role="navigation"] li:is(.previous) {
+  margin-right: 15px;
+}
+
+ul[role="navigation"] li:is(.next) {
+  margin-left: 15px;
+}
+
+ul[role="navigation"] a {
+  color: inherit;
+}
+
+ul[role="navigation"] .selected {
+  color: #ffd33a;
+}
+
+.feeds {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 25px;
+}
